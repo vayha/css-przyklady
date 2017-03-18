@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    /* tak powiny być opisane wszystkie elementy blokowe */
+}
+
+
+body {
+    margin: 0;
+    
+}
+
+.col-1-2 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 20px solid black;
+/* margin: 10px;  
+/*  uwaga   margin nie liczy się do box-sizing border-box i spowodował że dwie kolumny juz nie sie nie mieszczą 
+}
+/* border xo powoduje ze padding wlicza sie do 50% ramki*/
+
+.col-1-2:first-child {
+    background-color: beige;
+}
+
+.col-1-2:last-child {
+    background-color: darksalmon;
+}
+

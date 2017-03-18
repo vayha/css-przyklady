@@ -1,0 +1,27 @@
+body {
+    background-color: #eeefe8;
+    height: 3000px;
+}
+
+.background {
+    height: 600px;
+    margin: auto;
+    background-image: url(../img/truskawka.jpg);
+    background-repeat: no-repeat;
+    background-position: 20% 20%;
+    background-position: center;
+    
+    /*
+    background-attachment: fixed;
+    background-position: top; dostosuje sie do gory doł zetnei
+    */
+    
+    background-size: cover;
+    background-size: contain;
+      /* cover - całe tło przykryte obrazkiem 
+        contain - pokaze zawsze cały obrazek
+    */
+    background: green url(../img/truskawka.jpg) no-repeat fixed center; 
+    
+    background-size: cover;
+}

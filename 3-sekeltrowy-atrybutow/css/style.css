@@ -1,0 +1,31 @@
+a {
+    font-size: 3em
+}
+/* wyswietla atrybut z wartością title na czeronowono */
+a[title] {
+    color: red;
+}
+/* wyświetla kolot dla atrybutu */
+
+a[title="Link 5"] {
+    color: green;
+}
+/* tylda powoduje ze wszyskie ktore maja spacje przy atrybucie link*/
+a[title~="Link"] {
+    color: yellow;
+}
+/* bardzo się przydaje - oragne dla wszystkich tylko z pl*/
+a[href*=".pl"] {
+    color: orange;
+}
+
+/*konczy się lyb zaczyna od danej wartosci  wszystkie zaczynajace się od litery T bedą miały kolor*/
+
+a[title^="T"]  {
+    color: blueviolet;
+}
+/* ten który kończy się na .com ma taki kolor */
+a[href$=".com"]  {
+    color: chartreuse;
+}
+/* input[type="text"]*/
