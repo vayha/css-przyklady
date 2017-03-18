@@ -1,0 +1,78 @@
+a {
+    display: block;
+    font-size: 3em;
+}
+
+
+/*odwiedzone i nieodwiedzone linki - kolory*/
+
+a#link-1:link {
+    color: red;
+}
+
+a#link-2:visited {
+    color: green;
+}
+
+
+/*najczęściej używany */
+
+a#link-3:hover {
+    color: orange;
+    background-color: aqua;
+    font-size: 10em;
+    display: inline;
+}
+
+
+/*inline podswietlil tylko kawalek a nie background na całą stronę */
+
+a#link-4:active {
+    color: pink;
+}
+
+a#link-5:focus {
+    color: yellow;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+#p1targer {
+    color: chartreuse;
+}
+
+p:lang(en) {
+    font-weight: 200;
+}
+
+p:lang(pl) {
+    font-weight: 800;
+}
+/* pierwsze i osttnie dziecko z listy*/
+
+.list-item:first-child {
+    background-color: aqua;
+}
+
+.list-item:last-child {
+    background-color: burlywood;
+}
+
+div > p:only-child {
+    color: cornflowerblue;
+}
+
+/* odd nieparzyste dzieci */
+.list-item:nth-child(odd) {
+    background-color: pink;
+}
+
+.list-item:nth-child(7) {
+    background-color: darkgreen;
+}
+/* zacznij od 2, co trzeci bedzie mial taki kolor */
+.list-item:nth-child(3n + 2) {
+    background-color: orange;
+}
